@@ -1,0 +1,501 @@
+
+<%- include('./partials/headers'); -%>
+<link rel="stylesheet" href="styles/bootstrap-carousel.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<div class="wrapper">
+    <section class="section_first">
+    <%- include('../public/svg/home.svg') -%>
+    </section>
+    <section>
+        <div class="container" style="margin-top: -2.1rem;">
+                <section class="section" data-aos="fade-up" data-aos-duration="2000">
+                    <div>
+                  <figure class="image-container"><img src="https://images.unsplash.com/photo-1556191034-cbb6aa3cb008?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1798&q=80" alt=""/></figure>
+                  <div class="resp">
+                  <article class="content"  data-aos="zoom-in" data-aos-duration="2000" style="border-radius: 10px;">
+                    <h2 class="section-title">Let's dive into what we are!</h2>
+                    <p class="home-des">Parakram is the Annual Inter-College Sports Festival of IIT(ISM) Dhanbad. The 3-day Sports Festival of IIT(ISM) DHANBAD is one of the largest sporting fest in Eastern India. ”Parakram” in Sanskrit means efforts, strength, and heroism. Teams from various colleges compete to be the best and to lift the most aspired trophy of PARAKRAM. In the true sense, it is an exhibition of sporting fervour, and the success of the meet has been ratified by the success of many of its winners higher up in the sporting hierarchy.</p>
+                  </article>
+                  </div>
+                  </div>    
+                </section>
+                <div style=" height:1rem;">
+                    <h1 class="carousel-head">Memory Lane</h1>   
+                <!-- carousel goes here -->
+                <!-- partial:index.partial.html -->
+                <div class="document-center">
+                    <!--This carousel-container only exists so we can do the 
+                    aspect ratio tricks in CSS-->
+                    <div class="carousel-container">
+                      <div class="carousel" id="carousel-1" auto-scroll="7000">
+                        <!--The uppermost screen will appear first. This is due to JavaScript-->
+                        <section class="carousel-screen">
+                        <a href="https://www.instagram.com/reel/B9YeCqnJoHL/" target="_blank">
+                            <img src="Images/home-carousel-images/101.jpeg" alt="Chicago Band" />
+                        </a>
+                          <section class="text-container">
+                            <p>Vijendra Singh</p>
+                            <p>Olympics '08 Bronze medalist, Padma Shri Awardee </p>
+                          </section>
+                        </section>
+                        <section class="carousel-screen">
+                          <a href="https://www.instagram.com/reel/B86JkuypkXy/" target="_blank">
+                            <img src="Images/home-carousel-images/97259516.webp" alt="New York" />
+                        </a>
+                          <section class="text-container">
+                            <p>Rashid Khan</p>
+                            <p>International Cricketer</p>
+                          </section>
+                        </section>
+                        <section class="carousel-screen">
+                          <a href="https://www.instagram.com/reel/B9Q1tsoDm9B/" target="_blank">
+                            <img src="Images/home-carousel-images/103.jpg" alt="Los Angeles" />
+                        </a>
+                          <section class="text-container">
+                            <p>Ayhika Mukherjee</p>
+                            <p>International Table Tennis Player</p>
+                          </section>
+                        </section>
+                        <!-- <section class="carousel-screen">
+                            <a href="https://www.instagram.com/reel/B8v1LByJSMp/" target="_blank">
+                                <img src="Images/home-carousel-images/104.png" alt="Chicago Band" />
+                            </a>
+                            <section class="text-container">
+                              <p>Anwar Ahmed Khan</p>
+                              <p>Former International Hockey Player</p>
+                            </section>
+                          </section> -->
+                          <section class="carousel-screen">
+                            <a href="https://www.instagram.com/reel/B8gAAHDJDfP/" target="_blank">
+                                <img src="Images/home-carousel-images/110.png" alt="New York" />
+                            </a>
+                            <section class="text-container">
+                              <p>Harinder Pal Sandhu</p>
+                              <p>Asian Games 2014 Gold Medalist</p>
+                            </section>
+                          </section>
+                          <section class="carousel-screen">
+                            <a href="https://www.instagram.com/reel/B9ERYzBJpmb/" target="_blank">
+                                <img src="Images/home-carousel-images/111.png" alt="Los Angeles" />
+                                </a>
+                            <section class="text-container">
+                              <p>Sangram Chougule</p>
+                              <p>Mr. Universe 2014, Professional Bodybuilder</p>
+                            </section>
+                          </section>
+                        <!--These are not screens. They will always be on carousel-->
+                        <section class="circle-container">
+                          <!--These 'circles' need to match the number of carousel screens-->
+                          <div class="circle"></div>
+                          <div class="circle"></div>
+                          <div class="circle"></div>
+                          <div class="circle"></div>
+                          <!-- <div class="circle"></div> -->
+                          <div class="circle"></div>
+                        </section>
+                        <div class="left-arrow">
+                          <span class="chevron left"></span>
+                        </div>
+                        <div class="right-arrow">
+                          <span class="chevron right"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <footer class="footer" id="footer" style="position: relative;top: 200%;">
+                    <div class="container">
+                        <div class="row">
+                            <div class="footer-col">
+                                <h4>Address</h4>
+                             <p style="color: #fff;">Sports Office, IIT ISM<br> Rani Bandh, Hirapur, Sardar Patel Nagar, Dhanbad, Jharkhand 826004</p>
+                                
+                            </div>
+                            <div class="footer-col">
+                                <h4>Phone</h4>
+                                <p style="color: #fff;">Overall Coordinator:<br>+91 7742384052</p>
+                                <p style="color: #fff;">Coordinator:<br>+91 7668432573</p>
+                            </div>
+                            <div class="footer-col">
+                                <h4>Email</h4>
+                                    <a href="mailto:parakram@iitism.ac.in" target="_blank" style="color:#b27f1d;">
+                                        parakram@iitism.ac.in 
+                                    </a><br>
+                                    <a href="mailto:sponsorship.parakram@iitism.ac.in" target="_blank" style="color: #b27f1d;">
+                                        sponsorship.parakram@iitism.ac.in
+                                    </a>
+                             </a>
+                            </div>
+                            <div class="footer-col">
+                                <h4>follow us</h4>
+                                <a href="https://www.facebook.com/parakram.iitism"><i class="bi bi-facebook" style="font-size: 2rem; color: cornflowerblue;margin: 0.5rem;"></i></a>
+                                <a href="https://twitter.com/parakram2012"><i class="bi bi-twitter" style="font-size: 2rem; color: cornflowerblue;margin: 0.5rem;"></i></a>
+                                <a href="https://www.instagram.com/parakram.iitism"><i class="bi bi-instagram" style="font-size: 2rem; color: cornflowerblue;margin: 0.5rem;"></i></a>
+                                <a href="https://in.linkedin.com/company/parakram-iit-ism-dhanbad"><i class="bi bi-linkedin" style="font-size: 2rem; color: cornflowerblue;margin: 0.5rem;"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                </div>
+
+
+        </div>
+    </section>
+    </div>
+    <svg class="flameAnimate">
+        <filter id="fire">
+           <feTurbulence id="turbulence" baseFrequency="0.1 0.1" numOctaves="2" seed="3">
+               <animate attributeName="baseFrequency" dur="10s" values="0.1 0.1;0.12 0.2" repeatCount="indefinite"></animate>
+           </feTurbulence>
+           <feDisplacementMap in="SourceGraphic" Scale="10"></feDisplacementMap>
+        </filter>
+   </svg>
+   
+   <div class="fab-container">
+    <div class="button-full iconbutton-full  ">
+    <a href="https://www.instagram.com/parakram.iitism/reels/" target="_blank" id="hover-btn">
+        <i><p class="hover-btn-caption">Come Reminisce!</p><img src="Images\insta-icon.png" height="0rem" width="0rem" alt="" class="hover-btn-img"> </i>
+    </a>
+    </div>
+    <!-- <div class="button-sm iconbutton-sm">
+        <a href="https://www.instagram.com/parakram.iitism/reels/" target="_blank">
+        <i class="fa-solid fa-plus"><img src="Images\arrow-circle-right-svgrepo-com.svg" height="36rem" width="36rem" alt=""></i>
+        </a>
+    </div> -->
+
+</div>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+</body>
+
+
+
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r122/three.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/stats.js/7/Stats.min.js"></script>
+   <script >
+
+       var camera, scene, renderer,
+geometry, material, mesh;
+
+init();
+animate();
+
+function init() {
+clock = new THREE.Clock();
+
+renderer = new THREE.WebGLRenderer();
+console.log(screen.width);
+console.log(window.innerHeight)
+if(screen.width>767){
+renderer.setSize( window.innerWidth, window.innerHeight );
+}else{
+    renderer.setSize(window.innerWidth, 800);
+}
+
+scene = new THREE.Scene();
+
+camera = new THREE.PerspectiveCamera( 70, window.innerWidth / window.innerHeight, 1, 10000 );
+camera.position.z = 250;
+scene.add( camera );
+
+geometry = new THREE.CubeGeometry( 200, 200, 200 );
+material = new THREE.MeshLambertMaterial( { color: 0xffffff, wireframe: false } );
+mesh = new THREE.Mesh( geometry, material );
+cubeSineDriver = 0;
+
+THREE.ImageUtils.crossOrigin = ''; //Need this to pull in crossdomain images from AWS
+
+light = new THREE.DirectionalLight(0xffffff,0.33);
+light.position.set(-1,0,1);
+scene.add(light);
+
+smokeTexture = THREE.ImageUtils.loadTexture('https://s3-us-west-2.amazonaws.com/s.cdpn.io/95637/Smoke-Element.png');
+smokeMaterial = new THREE.MeshLambertMaterial({color: 0xffffff, map: smokeTexture, transparent: true});
+smokeGeo = new THREE.PlaneGeometry(300,300);
+smokeParticles = [];
+
+for (p = 0; p < 150; p++) {
+   var particle = new THREE.Mesh(smokeGeo,smokeMaterial);
+   particle.position.set(Math.random()*500-250,Math.random()*500-250,Math.random()*1000-100);
+   particle.rotation.z = Math.random() * 360;
+   scene.add(particle);
+   smokeParticles.push(particle);
+}
+document.body.appendChild( renderer.domElement );
+}
+
+function animate() {
+delta = clock.getDelta();
+requestAnimationFrame( animate );
+evolveSmoke();
+render();
+}
+
+function evolveSmoke() {
+var sp = smokeParticles.length;
+while(sp--) {
+   smokeParticles[sp].rotation.z += (delta * 0.2);
+}
+}
+
+function render() {
+mesh.rotation.x += 0.005;
+mesh.rotation.y += 0.01;
+cubeSineDriver += .01;
+mesh.position.z = 100 + (Math.sin(cubeSineDriver) * 500);
+renderer.render( scene, camera );
+}
+
+   </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+               AOS.init();
+    </script>
+  
+
+
+
+    <script>
+    //js for carousel
+    //Right Arrow & Left Arrow
+let rightArrow = document.querySelector("#carousel-1 .right-arrow");
+let leftArrow = document.querySelector("#carousel-1 .left-arrow");
+//List of all of the screens in carousel
+let screenStore = document.querySelectorAll("#carousel-1 .carousel-screen");
+let numOfScreens = screenStore.length;
+//List of all the circle stores
+let circleStore = document.querySelectorAll("#carousel-1 .circle-container .circle");
+//number to target main screen
+let currentScreen = 0;
+//currently in animation or not
+let inAnim = false;
+//Animation Time
+let animTime = 500;
+
+//Sort out starting position
+sortPositioning(screenStore[currentScreen], screenStore[currentScreen - 1], screenStore[currentScreen + 1]);
+//Sort out circle styling
+highlightCircle(circleStore[0]);
+
+//Start animation. Either towards left or right
+function startAnim(direction) {
+    if(!inAnim) {
+        inAnim = true;
+        if(direction === "right") {
+            moveRight();
+            highlightCircle(circleStore[currentScreen + 1], "right");
+        }else if(direction === "left"){
+            moveLeft();
+            highlightCircle(circleStore[currentScreen - 1], "left");
+        }else{
+            isAnim = false;
+            return
+        }
+    }
+}
+
+//Move to the right
+function moveRight() {
+    //Move towards Next screen as usual
+    if(currentScreen < numOfScreens - 1){
+    toLeft(screenStore[currentScreen]);
+    comeRight(screenStore[currentScreen + 1]);
+    setTimeout(() => {
+        inAnim = false;
+        currentScreen++;
+        sortPositioning(screenStore[currentScreen], screenStore[currentScreen - 1], screenStore[currentScreen + 1]);
+    }, animTime)
+    }else{
+        //Or the screen coming in is the first screen again
+        toLeft(screenStore[currentScreen]);
+        comeRight(screenStore[0]);
+        setTimeout(() => {
+            inAnim = false;
+            currentScreen = 0;
+            sortPositioning(screenStore[currentScreen], screenStore[currentScreen - 1], screenStore[currentScreen + 1]);
+        }, animTime)
+    }
+}
+
+//Move to the left
+function moveLeft() {
+    //Move back to screen previously on, as usual
+    if(currentScreen > 0){
+        toRight(screenStore[currentScreen]);
+        comeLeft(screenStore[currentScreen - 1]);
+        setTimeout(() => {
+        inAnim = false;
+        currentScreen--;
+        sortPositioning(screenStore[currentScreen], screenStore[currentScreen - 1], screenStore[currentScreen + 1]);
+        }, animTime)
+    }else{
+        //Move back to the last screen container
+        toRight(screenStore[currentScreen]);
+        comeLeft(screenStore[numOfScreens - 1]);
+        setTimeout(() => {
+            inAnim = false;
+            currentScreen = numOfScreens - 1;
+            sortPositioning(screenStore[currentScreen], screenStore[currentScreen - 1], screenStore[currentScreen + 1]);
+            }, animTime)
+    }
+}
+
+//User clicks on rightArrow
+rightArrow.addEventListener("click", () => {
+    startAnim("right");
+});
+
+//User clicks on the leftArrow
+leftArrow.addEventListener("click", () => {
+    startAnim("left");
+});
+
+
+
+
+//User clicks on one of the circles
+circleStore.forEach(circle => {
+    circle.addEventListener("click", event => {
+        if(!inAnim){
+        //Convert NodeList to Array, to use 'indexOf' method.
+        let circleStoreArray = Array.prototype.slice.call(circleStore);
+        let circleIndex = circleStoreArray.indexOf(event.target);
+        //Configure circle styling
+        highlightCircle(event.target);
+        //Work out whether we need to move right or left, or nowhere.
+        if(circleIndex > currentScreen){
+            changeScreenCircleClick(circleIndex, "right");
+        }else if (circleIndex < currentScreen){
+            changeScreenCircleClick(circleIndex, "left");
+        }
+    }
+})
+})
+
+function changeScreenCircleClick(circleIndex, direction) {
+    inAnim = true;
+    if(direction === "right"){
+        sortPositioning(screenStore[currentScreen], screenStore[currentScreen - 1], screenStore[circleIndex]);
+        toLeft(screenStore[currentScreen]);
+        comeRight(screenStore[circleIndex]);
+    }else if (direction === "left"){
+        sortPositioning(screenStore[currentScreen], screenStore[circleIndex], screenStore[currentScreen + 1]);
+        toRight(screenStore[currentScreen]);
+        comeLeft(screenStore[circleIndex]);
+    }else{
+        inAnim = false;
+        return
+    }
+    setTimeout(() => {
+    inAnim = false;
+    currentScreen = circleIndex;
+    sortPositioning(screenStore[currentScreen], screenStore[currentScreen - 1], screenStore[currentScreen + 1]);
+    }, animTime)
+}
+
+function highlightCircle(circleSelect, direction) {
+    if(circleSelect === undefined && direction === "right"){
+        circleSelect = circleStore[0];
+    }else if (circleSelect === undefined && direction === "left"){
+        circleSelect = circleStore[numOfScreens - 1];
+    }
+    circleStore.forEach(circle => {
+        if(circle === circleSelect){
+            circle.classList.add("circle-fill");
+        }else{
+            circle.classList.remove("circle-fill");
+        }
+    })
+}
+
+
+//Animation methods
+function toLeft(screen) {
+    screen.style.animation = "toLeft 0.5s ease-in-out forwards";
+    setTimeout(() => {
+        screen.style.animation = "";
+    }, animTime);
+}
+
+function toRight(screen) {
+    screen.style.animation = "toRight 0.5s ease-in-out forwards";
+    setTimeout(() => {
+        screen.style.animation = "";
+    }, animTime);
+}
+
+function comeRight(screen) {
+    screen.style.animation = "comeRight 0.5s ease-in-out forwards";
+    setTimeout(() => {
+        screen.style.animation = "";
+    }, animTime);
+}
+
+function comeLeft(screen) {
+    screen.style.animation = "comeLeft 0.5s ease-in-out forwards";
+    setTimeout(() => {
+        screen.style.animation = "";
+    }, animTime);
+}
+
+
+
+//Sort positioning. Don't want images to overlap
+function sortPositioning(mainScreen, leftScreen, rightScreen) {
+    //If right screen is undefined. We need to repeat first screen again
+    if(rightScreen === undefined){
+        rightScreen = screenStore[0];
+    }
+    //If left screen is undefined. We use the last screen
+    if(leftScreen === undefined){
+        leftScreen = screenStore[numOfScreens - 1];
+    }
+    screenStore.forEach(screen => {
+        if(screen === mainScreen){
+            screen.style.display = "block";
+            screen.style.left = "0px";
+        }else if (screen === leftScreen){
+            screen.style.display = "block";
+            screen.style.left = "-100%";
+        }else if (screen === rightScreen){
+            screen.style.display = "block";
+            screen.style.left = "100%";
+        }else{
+            screen.style.display = "none";
+        }
+    })
+}
+
+//Auto Scroll feature
+let carousel = document.getElementById("carousel-1");
+let scrollTime = Number(carousel.getAttribute("auto-scroll"));
+//Only implement the feature if the user has included the attribute 'auto-scroll'.
+if(scrollTime) {
+    //Auto Scroll will be set up the very first time
+    let autoWipe = setInterval(() => {
+        startAnim("right");
+    }, /*scrollTime*/3500);
+    //Clear the timer when they hover on carousel
+    carousel.addEventListener("mouseenter", () => {
+        clearInterval(autoWipe);
+    });
+    //Re-initialise the timer when they hover out of the carousel
+    carousel.addEventListener("mouseleave", () => {
+         autoWipe = setInterval(() => {
+            startAnim("right");
+        }, /*scrollTime*/3500);
+    })
+
+}
+    </script>   
+    <script>
+        setInterval(()=>{
+            document.querySelector('.button-full').classList.add("button-sm");
+            document.querySelector('.button-full').classList.add("iconbutton-sm");
+            document.querySelector('.hover-btn-caption').classList.add("hidden");
+            document.querySelector('.hover-btn-img').classList.add("show");
+        },2500)
+    </script>
+    
+</html>
